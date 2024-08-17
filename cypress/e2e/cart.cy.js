@@ -5,8 +5,8 @@ describe('Add to cart perform', () => {
        cy.get('[name="email"]').type('vinithsaravanan96@gmail.com')
        cy.get('#exampleInputPassword1').type(123456789)
        cy.get('#exampleCheck1').click()
-      cy.get('#exampleFormControlSelect1').type('male')
-      cy.get('#inlineRadio1').click()
+       cy.get('#exampleFormControlSelect1').type('male')
+       cy.get('#inlineRadio1').click()
        cy.get('[name="bday"]').type('1996-11-25')
        cy.get('[type="submit"]').click()
        cy.get('a.nav-link').eq(1).click()
@@ -14,6 +14,7 @@ describe('Add to cart perform', () => {
        cy.get('.btn.btn-info').eq(2).click()
     // cy.get('app-card-list app-card').each(($phones)=>{
 
+      
       
     //   if($phones.text().includes('Nokia')){
     //     cy.wrap($phones).find('button').click()
@@ -26,7 +27,7 @@ describe('Add to cart perform', () => {
       //  cy.get('button.btn.btn-success').click()
       //  cy.get('#country').type('in')
       //  cy.get()
-
+// vinith saravanaraj
 
      })
    })
